@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+.light {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Dark Mode */
+.dark {
+  background-color: #222;
+  color: #f8f9fa;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Container */
+.dark .container {
+  background-color: #333;
+  color: white;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Dark Mode Input */
+.dark input {
+  background-color: #555;
+  color: white;
+  border: 1px solid #888;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dark Mode Button */
+.dark button {
+  background-color: #28a745;
+}
+
+.dark button:hover {
+  background-color: #218838;
+}
+
+/* Links */
+.link {
+  color: #007bff;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Dark Mode Links */
+.dark .link {
+  color: #17a2b8;
+}
+
+.dark .link:hover {
+  color: #138496;
+}
