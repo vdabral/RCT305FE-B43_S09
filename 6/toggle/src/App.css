@@ -1,0 +1,55 @@
+/* Default Light Mode */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: background 0.3s, color 0.3s;
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode for Container */
+.container.dark {
+  background-color: #222;
+  color: white;
+}
+
+/* Light Mode for Container */
+.container.light {
+  background-color: white;
+  color: black;
+}
+
+/* Button Styles */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: darkgray;
+  transform: scale(1.05);
+}
